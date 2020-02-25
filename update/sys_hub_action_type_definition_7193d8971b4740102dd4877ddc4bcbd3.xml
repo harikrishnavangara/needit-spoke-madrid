@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Get the value of an application property.</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{action.property}}","label":"action➛property","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>f6a0d1eb1b8380102dd4877ddc4bcb8e</latest_snapshot>
+        <master_snapshot>7b617c671b4380102dd4877ddc4bcb2d</master_snapshot>
+        <name>Get Property</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-23 17:52:39</sys_created_on>
+        <sys_id>7193d8971b4740102dd4877ddc4bcbd3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="Needit Soke" source="x_83382_needit_sok">63d25cdf1b0740102dd4877ddc4bcb45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit Soke">63d25cdf1b0740102dd4877ddc4bcb45</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_7193d8971b4740102dd4877ddc4bcbd3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 16:58:02</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=7193d8971b4740102dd4877ddc4bcbd3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7193d8971b4740102dd4877ddc4bcbd3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>7193d8971b4740102dd4877ddc4bcbd3</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 05:52:41</sys_created_on>
+        <sys_id>786872571b0f40102dd4877ddc4bcb50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 05:52:41</sys_updated_on>
+        <value>property_value</value>
+        <variable display_value="">746872571b0f40102dd4877ddc4bcb3a</variable>
+    </sys_variable_value>
+</record_update>

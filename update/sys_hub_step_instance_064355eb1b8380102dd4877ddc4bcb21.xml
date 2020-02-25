@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Get Days Ago Date">a0d1d1ef1b4380102dd4877ddc4bcbe8</action>
+        <cid>899a2a30-3bf0-452f-b9fd-ad887f995e55</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Calculate daysAgo Date</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 17:09:25</sys_created_on>
+        <sys_id>064355eb1b8380102dd4877ddc4bcb21</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Calculate daysAgo Date</sys_name>
+        <sys_package display_value="Needit Soke" source="x_83382_needit_sok">63d25cdf1b0740102dd4877ddc4bcb45</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Needit Soke">63d25cdf1b0740102dd4877ddc4bcb45</sys_scope>
+        <sys_update_name>sys_hub_step_instance_064355eb1b8380102dd4877ddc4bcb21</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 17:24:37</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=064355eb1b8380102dd4877ddc4bcb21"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>064355eb1b8380102dd4877ddc4bcb21</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 17:09:25</sys_created_on>
+        <sys_id>0243916f1b8380102dd4877ddc4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 17:09:25</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>064355eb1b8380102dd4877ddc4bcb21</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 17:09:25</sys_created_on>
+        <sys_id>c243916f1b8380102dd4877ddc4bcb42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 17:09:25</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+// ... code ...
+  
+  outputs.new_date = gs.daysAgo(inputs.days_ago);
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>064355eb1b8380102dd4877ddc4bcb21</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 17:09:25</sys_created_on>
+        <sys_id>ce43916f1b8380102dd4877ddc4bcb42</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 17:24:37</sys_updated_on>
+        <value/>
+        <variable display_value="">8e43916f1b8380102dd4877ddc4bcb33</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=064355eb1b8380102dd4877ddc4bcb21"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>064355eb1b8380102dd4877ddc4bcb21</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 17:09:25</sys_created_on>
+        <sys_id>ca43916f1b8380102dd4877ddc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 17:09:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>days_ago</field>
+        <id>064355eb1b8380102dd4877ddc4bcb21</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 17:09:25</sys_created_on>
+        <sys_id>4e43916f1b8380102dd4877ddc4bcb42</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 17:24:37</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_064355eb1b8380102dd4877ddc4bcb21</table>
+        <value>{{action.days_ago}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>064355eb1b8380102dd4877ddc4bcb21</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-02-24 17:09:25</sys_created_on>
+        <sys_id>8e43916f1b8380102dd4877ddc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-02-24 17:09:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
